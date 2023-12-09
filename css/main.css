@@ -21,10 +21,17 @@ body {
   background-color: #333;
 }
 
-.snake {
+.snake-head {
   grid-row: 20;
   grid-column: 10;
   width: 100%;
   height: 100%;
   background-color: red;
+}
+
+.food {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: yellow;
 }/*# sourceMappingURL=main.css.map */
